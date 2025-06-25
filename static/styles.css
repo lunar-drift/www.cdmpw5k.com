@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #11111e; */
+    background-color: #0b0c10;
+}
+
+main {
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#sigil {
+    max-width: min(100%, 800px);
+    border: #11111e solid 12px;
+    aspect-ratio: initial;
+    max-height: 80vh;
+    margin: 12px auto;
+}
+
+.icons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icon {
+    aspect-ratio: initial;
+    height: 3em;
+    margin: 0 12px 0;
+    filter: invert(60%) sepia(6%) saturate(4533%) hue-rotate(186deg) brightness(94%) contrast(94%);
+}
