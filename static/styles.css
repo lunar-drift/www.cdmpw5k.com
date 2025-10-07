@@ -4,8 +4,14 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: CopperplateGothicBold; /* set name */
+    src: url(copperplategothic_bold/copperplategothic_bold.ttf); /* url of the font */
+}
+
 body {
-    /* background-color: #11111e; */
+    color: #f13500;
+    font-family: CopperplateGothicBold, serif;
     background-color: #0b0c10;
 }
 
