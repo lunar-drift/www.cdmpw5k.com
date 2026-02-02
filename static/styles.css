@@ -44,3 +44,7 @@ main {
     margin: 0 12px 0;
     filter: invert(60%) sepia(6%) saturate(4533%) hue-rotate(186deg) brightness(94%) contrast(94%);
 }
+
+#levelmeup, #levelmeup:visited, #levelmeup:hover, #levelmeup:active {
+  color: #f13500;
+}
