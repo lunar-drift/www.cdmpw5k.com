@@ -1,0 +1,15 @@
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+
+jobs:
+  s3-sync:
+    uses: lunar-drift/actions-workflows/.github/workflows/s3-sync.yaml@main
+    with:
+      bucket_name: "cdmpw5k.com"
+    secrets: 
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
